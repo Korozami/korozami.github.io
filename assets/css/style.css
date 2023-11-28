@@ -536,7 +536,8 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin: 30px;
 }
 
 .portfolio #portfolio-flters {
@@ -644,6 +645,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: 20px;
 }
 
 .portfolio-info-title {
@@ -651,6 +653,13 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 20px;
+}
+
+.portfolio-wrap{
+  width: 450px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-details .portfolio-details-slider img {
